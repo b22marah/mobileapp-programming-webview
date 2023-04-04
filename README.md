@@ -2,8 +2,6 @@
 
 # Rapport
 
-## Följande grundsyn gäller dugga-svar:
-
 För att lösa uppgift 2: WebView, så började jag med att forka samt klona projektet. Därefter följde jag uppgiftsbeskrivningen
 för att uppnå alla krav på lösandet av uppgiften.
 
