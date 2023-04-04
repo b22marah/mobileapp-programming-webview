@@ -17,10 +17,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void showExternalWebPage(){
         // TODO: Add your code for showing external web page here
+
+        myWebView.loadUrl("https://www.his.se");
     }
 
     public void showInternalWebPage(){
         // TODO: Add your code for showing internal web page here
+
+        myWebView.loadUrl("file:///android_asset/about.html");
     }
 
     @Override
@@ -32,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
 
         myWebView = findViewById(R.id.my_webview);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("file:///android_asset/about.html");
         myWebView.getSettings().setJavaScriptEnabled(true);
 
 
@@ -79,12 +82,12 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_external_web) {
-            Log.d("==>","Will display external web page");
+            showExternalWebPage();
             return true;
         }
 
         if (id == R.id.action_internal_web) {
-            Log.d("==>","Will display internal web page");
+            showInternalWebPage();
             return true;
         }
 
