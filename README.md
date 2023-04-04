@@ -9,7 +9,7 @@
 - Svaret skall ha minst en skärmdump. Skärmdumpar skall illustrera exekvering av relevant programkod. Eventuell text i skärmdumpar måste vara läsbar.
 - I de fall detta efterfrågas, dela upp delar av ditt svar i för- och nackdelar. Dina för- respektive nackdelar skall vara i form av punktlistor med kortare stycken (3-4 meningar).
 
-##Programkod:
+## Programkod:
 
 ```
 function errorCallback(error) {
@@ -27,7 +27,7 @@ function errorCallback(error) {
 }
 ```
 
-##Bilder på applikationen:
+## Bilder på applikationen:
 
 External Web Page:
 ![img.png](img.png)
