@@ -29,8 +29,8 @@ function errorCallback(error) {
 
 ## Bilder på applikationen:
 
-External Web Page:
+### External Web Page:
 ![img.png](img.png)
 
-Internal Web Page:
+### Internal Web Page:
 ![img_1.png](img_1.png)
